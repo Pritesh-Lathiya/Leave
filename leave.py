@@ -27,7 +27,7 @@ if st.button("Generate Leave Application"):
         st.warning("Please fill out all required fields.")
     else:
         leave_letter = f"""\
-**Subject**: Leave Application for {leave_dates}
+Subject : Leave Application for {leave_dates}
 
 Dear {manager_name},
 
